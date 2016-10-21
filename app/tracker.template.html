@@ -1,0 +1,25 @@
+          <div class="col-sm-6">
+            <div class="panel panel-primary" data-bind="css: { 'panel-success': isPriceUp() == true, 'panel-danger': isPriceUp() == false}" >
+                <div class="panel-heading clearfix">
+                    <div class="btn-toolbar pull-right">               
+                        <a href="#" class="btn btn-default btn-sm" data-bind="click: toggleUpdates" >
+                            <div data-bind="if: pauseUpdates() == false"> 
+                                <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+                            </div>
+                            <div data-bind="if: pauseUpdates() == true"> 
+                                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                            </div>
+                        </a>                
+                        <a href="#" class="btn btn-default btn-sm" data-bind="click: function(){ removeItem($data); }" >
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        </a>                                                
+                    </div>                    
+                    <h5 class="panel-title pull-left" data-bind="text: topic"></h5>
+                </div>
+                <div class="panel-body">
+                    <div >
+                        <h2 data-bind="text: lastTradePrice"></h2>
+                    </div>
+                </div>
+            </div>    
+        </div>
