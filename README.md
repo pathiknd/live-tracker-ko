@@ -2,6 +2,8 @@ This is a demo SPA using KnockoutJS. It is doing exactly the same thing as the o
 
 The application is using KnockoutJS 3.4.0
 
+App is available via Github Pages at https://pathiknd.github.io/live-tracker-ko/
+
 ## Angular 2 vs KnockoutJS
 
  * KnockoutJS is much easier to learn and start developing. Angular 2 has bigger learning curve because it is a full framework with lot of features.
