@@ -6,7 +6,7 @@ App is available via Github Pages at https://pathiknd.github.io/live-tracker-ko/
 
 ## Angular 2 vs KnockoutJS
 
- * KnockoutJS is much easier to learn and start developing. Angular 2 has bigger learning curve because it is a full framework with lot of features.
+ * KnockoutJS is easier to learn and start developing. Angular 2 has bigger learning curve because it is a full framework with lot of features.
  
  * Angular 2 provide better code readbility and maintainability by enforcing modular approach to development - by forcing to create components by default. Knockout doesn't force modular development and let you write code that can be difficult to maintain.
  
@@ -14,6 +14,8 @@ App is available via Github Pages at https://pathiknd.github.io/live-tracker-ko/
  
  * With KO, you may have to deal with jQuery and native events in certain cases which increases the complexity unnecessarily. 
  
- * KO requires accessing observable members in very particular way - using () in some cases but without () for arrays in certain cases. This can be tricky for new developers. Angular 2 is much better in this case.
+ * KO requires accessing observable members in very particular way - using () but without () for arrays in certain cases. This can be tricky for new developers. 
+ 
+ * Angular 2 has better tooling in the form of angular-cli.
  
  
