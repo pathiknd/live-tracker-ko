@@ -18,4 +18,4 @@ App is available via Github Pages at https://pathiknd.github.io/live-tracker-ko/
  
  * Angular 2 has better tooling in the form of angular-cli.
  
- 
+ * If you breakdown application in to components and organize them in to different files for more maintainability, you'll have to use a module loader like RequireJS or bundle the application using something like webpack. I have used RequireJS in this demo. Managing dependencies in RequireJS modules can be cumbersome once the application grows beyond a point. And bundling would require configuring Webpack or similar tool - not trivial for newbies. Here again, Angular 2 wins by having a superior tooling: angular-cli. angular-cli wraps the complexity of setting up webpack and allows bundling the application using simple commands. 
